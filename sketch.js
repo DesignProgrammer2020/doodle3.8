@@ -22,15 +22,6 @@ function draw() {
 }
 
 function keyTyped() {
-  // if (key === 'r') {  //red stroke
-  //   stroke(255, 0, 0);
-  // }
-  // if (key === 'g') {  //green stroke
-  //   stroke(0, 180, 0);
-  // }
-  // if (key === 'b') {  //blue stroke
-  //   stroke(0, 80, 235);
-  // }
   if (key === 's') { //save image
     saveCanvas('drawing', 'png');
   } else if (key === 'd') { //display image
